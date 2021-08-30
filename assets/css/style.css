@@ -1,0 +1,477 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: 0; 
+}
+
+/* Common */
+html {
+   scroll-behavior: smooth;
+   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.cta-link {
+   color: #06c;
+   text-decoration: none;
+}
+
+.cta-link:hover {
+   text-decoration: underline;
+}
+
+.sub-product-link {
+   margin-top: 12px;
+}
+
+.opacity {
+   opacity: .9;
+}
+
+.buy {
+   margin-left: 35px;
+}
+
+.row-half {
+   width: 100%;
+   margin-top: 12px;
+   margin-right: -12px;
+}
+
+.row-half::after {
+   content: "";
+   clear: both;
+   display: table;
+}
+
+.col {
+   float: left;
+}
+
+.col-half {
+   width: calc(50% - 18px);
+   height: 580px;
+   margin-left: 12px;
+}
+
+.col-half-right {
+   margin-right: 12px;
+}
+
+.col-fifth {
+   width: 196px;
+   /* padding-right: 20px; */
+}
+
+.arrow-icon {
+   font-size: 10px;
+   font-weight: 100;
+}
+
+.nav-icon {
+   font-size: 20px;
+   font-weight: 100;
+}
+
+.link-hover{
+   text-decoration: none;
+   color: #868686;
+}
+
+.link-hover:hover {
+   text-decoration: underline;
+}
+
+/* Main */
+
+#header {
+   height: 44px;
+   background-color: rgba(0,0,0,.8);
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 1;
+}
+
+#nav {
+   width: 980px;
+   padding: 0 14px;
+   margin: 0 auto;
+   list-style-type: none;
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+#nav > li > a {
+   float: left;
+   text-decoration: none;
+   color: #f5f5f7;
+   opacity: .8;
+   font-size: 14px;
+   line-height: 44px;
+}
+
+#nav li:hover a {
+   opacity: 1;
+}
+
+#welcome {
+   background-color: #f5f5f7;
+   height: 44px;
+}
+
+#welcome > p {
+   font-size: 14px;
+   color: #1d1d1f;
+   text-align: center;
+   line-height: 44px;
+   margin-top: 44px;
+}
+
+#featured-products .iphone12 {
+   padding-bottom: 38%;
+   margin-bottom: 12px;
+   background-image: url('/assets/img/iphone12.jpg');
+   background-position: top -50px center ;
+   position: relative;
+} 
+
+#featured-products .main-product-heading {
+   font-size: 56px;
+   font-weight: 550;
+}
+
+#featured-products .main-product-subheading {
+   margin-top: 6px;
+   font-size: 28px;
+   font-weight: 400;
+}
+
+#featured-products .main-product-pricing-info {
+   margin-top: 14px;
+}
+
+#featured-products .main-product-pricing-info > p {
+   font-size: 17px;
+   margin-top: 7px; 
+}
+
+.iphone12 .text-wrapper,
+.iphone12pro .text-wrapper {
+   width: 100%;
+   position: absolute;
+   top: 47px;
+   text-align: center;
+   padding: 0 auto;
+}
+
+.iphone12 .main-product-heading,
+.iphone12 .main-product-subheading {
+   color: #1d1d1f;
+}
+
+.iphone12 .main-product-pricing-info,
+.iphone12pro .main-product-pricing-info {
+   color: rgb(134,134,139);
+}
+
+.iphone12 .main-product-links,
+.iphone12pro .main-product-links {
+   font-size: 21px;
+   margin-top: 14px;
+}
+
+#featured-products .iphone12pro {
+   padding-bottom: 38%;
+   margin-bottom: 12px;
+   background-image: url('/assets/img/iphone12pro.jpg');
+   background-position: top -50px center;
+   position: relative;
+} 
+
+.iphone12pro .main-product-heading,
+.iphone12pro .main-product-subheading {
+   color: #f5f5f7;
+}
+
+#featured-products .appletv {
+   padding-top: 62.5%;
+   background: url('/assets/img/appletv.jpg') top center / contain no-repeat;
+   position: relative;
+}
+
+.appletv .text-wrapper {
+   position: absolute;
+   width: 100%;
+   bottom: 75px;
+   margin: 44px auto 0;
+   text-align: center;
+}
+
+.appletv h2 {
+   width: 100%;
+   height: 73px;
+   background: url('/assets/img/appletv_logo.png') center center / contain no-repeat;
+}
+
+.appletv h3 {
+   margin: 21px auto;
+   width: 346px;
+   height: 174px;
+   background: url('/assets/img/appletv_new_season.png') center center / contain no-repeat;
+}
+
+.appletv .stream-link {
+   font-size: 21px;
+   color: rgba(17,17,17);
+   line-height: 1.4;
+   text-decoration: none;
+}
+
+.appletv .stream-link:hover {
+   opacity: .8;
+   text-decoration: underline;
+}
+
+#other-products h5 {
+   line-height: 26px;
+   font-size: 21px;
+}
+
+#other-products .ipad-pro {
+   background: url('/assets/img/ipad_pro.jpg') center center / cover no-repeat;
+   background-origin: content-box;
+   position: relative;
+   text-align: center;
+}
+
+.ipad-pro h4, .imac h4 {
+   margin-top: 53px;
+   font-size: 40px;
+   font-weight: 600;
+}
+
+.ipad-pro h5, .imac h5, .watch h5, .fitness h5 {
+   margin-top: 4px;
+   font-weight: 400;
+   font-size: 21px;
+}
+
+.ipad-pro h4, .ipad-pro h5, .watch h5 {
+   color: #f5f5f7;
+}
+
+#other-products .imac {
+   background: url('/assets/img/imac.jpg') center center / cover no-repeat;
+   background-origin: content-box;
+   position: relative;
+   text-align: center;
+}
+
+.imac h4, .imac h5 {
+   color: #1d1d1f;
+}
+
+#other-products .watch {
+   background: url('/assets/img/apple_watch.jpg') center center / cover no-repeat;
+   background-origin: content-box;
+   text-align: center;
+}
+
+.watch h4 {
+   width: 100%;
+   height: 49px;
+   background: url('/assets/img/apple_watch_logo.png') center center / contain no-repeat;
+   margin-top: 40px;
+}
+
+#other-products .fitness {
+   background: url('/assets/img/fitness.jpg') bottom center / 156% no-repeat;
+   background-origin: content-box;
+   text-align: center;
+}
+
+.fitness h4 {
+   margin-top: 56px;
+   width: 100%;
+   height: 33px;
+   background: url('/assets/img/fitness_logo.png') center center / contain no-repeat;
+}
+
+.fitness h5 {
+   max-width: 450px;
+   margin: 11px auto 0;
+}
+
+#other-products .buy-for-college {
+   background: url('/assets/img/buy_for_college.jpg') center center / cover no-repeat;
+   text-align: center;
+}
+
+.buy-for-college h4 {
+   font-size: 40px;
+   max-width: 450px;
+   margin: 53px auto 0;
+}
+
+.buy-for-college a {
+   display: block;
+   margin-top: 12px;
+}
+
+#other-products .card {
+   background: url('/assets/img/card.jpg') center center / cover no-repeat;
+   text-align: center;
+}
+
+.card h4 {
+   width: 100%;
+   margin-top: 56px;
+   height: 35px;
+   background: url('/assets/img/card_logo.png') center center / contain no-repeat;
+}
+
+.card h5 {
+   color: #1d1d1f;
+   margin: 10px auto 0;
+   font-size: 21px;
+   font-weight: 400;
+   max-width: 270px;
+}
+
+#pay {
+   background-color: rgba(251, 251, 253, 1);
+   margin-bottom: 12px;
+   position: relative;
+}
+
+#pay .text-wrapper {
+   position: absolute;
+   top: 52px;
+   width: 100%;
+   text-align: center;
+}
+
+#pay h4 {
+   width: 100%;
+   height: 51px;
+   background: url('/assets/img/Pay_logo.png') top center / contain no-repeat;
+}
+
+#pay h5 {
+   font-size: 21px;
+   line-height: 28px;
+   max-width: 620px;
+   font-weight: 400;
+   margin: 0 auto;
+}
+
+#pay a {
+   display: block;
+   margin-top: 12px;
+   margin-bottom: 50px;
+}
+
+#footer {
+   background-color: #f5f5f7;
+   margin-top: 279px;
+   color: #868686;
+}
+
+#footer .text-wrapper {
+   width: 980px;
+   margin: 0 auto;
+   font-size: 12px;
+}
+
+#footer .policy {
+   padding-top: 17px;
+   padding-bottom: 11px;
+   border-bottom: 1px solid rgb(210, 210, 215);
+}
+
+#footer .policy p {
+   margin-bottom: 10px;
+   line-height: 16px;
+   color: #868686;
+}
+
+#footer .resource-links {
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.resource-links p {
+   font-weight: 600;
+   line-height: 16px;
+   margin-bottom: 10px;
+   color: rgba(0,10,20,.7)
+}
+
+.resource-links .title-after {
+   margin-top: 14px;
+}
+
+.resource-links ul {
+   list-style-type: none;
+   line-height: 16px;
+}
+
+.resource-links li {
+   margin-bottom: 10px;
+}
+
+.resource-links li:hover a {
+   text-decoration: underline;
+}
+
+.resource-links a {
+   text-decoration: none;
+   font-size: 12px;
+   line-height: 16px;
+   color: #86868b;
+}
+
+#footer .footer-other-info {
+   padding-top: 34px;
+   padding-bottom: 21px;
+}
+
+#footer .contact p {
+   line-height: 16px;
+   padding-bottom: 8px;
+   border-bottom: 1px solid rgb(210, 210, 215);
+}
+
+#footer .copyright {
+   line-height: 26px;
+   margin-top: 5px;
+   display: flex;
+   justify-content: space-between;
+}
+
+#footer .copyright * {
+   float: left;
+}
+
+#footer .copyright .copyright-links {
+   width: 600px;
+}
+
+#footer .copyright a {
+   text-decoration: none;
+   color: #868686;
+}
+
+#footer .copyright a:hover {
+   text-decoration: underline;
+   opacity: .8;
+}
+
+.copyright .copyright-links a {
+   border-right: 1px solid rgb(210, 210, 215);
+   padding-right: 10px;
+   margin-right: 7px;
+}
