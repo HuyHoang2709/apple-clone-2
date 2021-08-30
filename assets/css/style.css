@@ -132,7 +132,7 @@ html {
 #featured-products .iphone12 {
    padding-bottom: 38%;
    margin-bottom: 12px;
-   background-image: url('/assets/img/iphone12.jpg');
+   background-image: url('../img/iphone12.jpg');
    background-position: top -50px center ;
    position: relative;
 } 
@@ -185,7 +185,7 @@ html {
 #featured-products .iphone12pro {
    padding-bottom: 38%;
    margin-bottom: 12px;
-   background-image: url('/assets/img/iphone12pro.jpg');
+   background-image: url('../img/iphone12pro.jpg');
    background-position: top -50px center;
    position: relative;
 } 
@@ -197,7 +197,7 @@ html {
 
 #featured-products .appletv {
    padding-top: 62.5%;
-   background: url('/assets/img/appletv.jpg') top center / contain no-repeat;
+   background: url('../img/appletv.jpg') top center / contain no-repeat;
    position: relative;
 }
 
@@ -212,14 +212,14 @@ html {
 .appletv h2 {
    width: 100%;
    height: 73px;
-   background: url('/assets/img/appletv_logo.png') center center / contain no-repeat;
+   background: url('../img/appletv_logo.png') center center / contain no-repeat;
 }
 
 .appletv h3 {
    margin: 21px auto;
    width: 346px;
    height: 174px;
-   background: url('/assets/img/appletv_new_season.png') center center / contain no-repeat;
+   background: url('../img/appletv_new_season.png') center center / contain no-repeat;
 }
 
 .appletv .stream-link {
@@ -240,7 +240,7 @@ html {
 }
 
 #other-products .ipad-pro {
-   background: url('/assets/img/ipad_pro.jpg') center center / cover no-repeat;
+   background: url('../img/ipad_pro.jpg') center center / cover no-repeat;
    background-origin: content-box;
    position: relative;
    text-align: center;
@@ -263,7 +263,7 @@ html {
 }
 
 #other-products .imac {
-   background: url('/assets/img/imac.jpg') center center / cover no-repeat;
+   background: url('../img/imac.jpg') center center / cover no-repeat;
    background-origin: content-box;
    position: relative;
    text-align: center;
@@ -274,7 +274,7 @@ html {
 }
 
 #other-products .watch {
-   background: url('/assets/img/apple_watch.jpg') center center / cover no-repeat;
+   background: url('../img/apple_watch.jpg') center center / cover no-repeat;
    background-origin: content-box;
    text-align: center;
 }
@@ -282,12 +282,12 @@ html {
 .watch h4 {
    width: 100%;
    height: 49px;
-   background: url('/assets/img/apple_watch_logo.png') center center / contain no-repeat;
+   background: url('../img/apple_watch_logo.png') center center / contain no-repeat;
    margin-top: 40px;
 }
 
 #other-products .fitness {
-   background: url('/assets/img/fitness.jpg') bottom center / 156% no-repeat;
+   background: url('../img/fitness.jpg') bottom center / 156% no-repeat;
    background-origin: content-box;
    text-align: center;
 }
@@ -296,7 +296,7 @@ html {
    margin-top: 56px;
    width: 100%;
    height: 33px;
-   background: url('/assets/img/fitness_logo.png') center center / contain no-repeat;
+   background: url('../img/fitness_logo.png') center center / contain no-repeat;
 }
 
 .fitness h5 {
@@ -305,7 +305,7 @@ html {
 }
 
 #other-products .buy-for-college {
-   background: url('/assets/img/buy_for_college.jpg') center center / cover no-repeat;
+   background: url('../img/buy_for_college.jpg') center center / cover no-repeat;
    text-align: center;
 }
 
@@ -321,7 +321,7 @@ html {
 }
 
 #other-products .card {
-   background: url('/assets/img/card.jpg') center center / cover no-repeat;
+   background: url('../img/card.jpg') center center / cover no-repeat;
    text-align: center;
 }
 
@@ -329,7 +329,7 @@ html {
    width: 100%;
    margin-top: 56px;
    height: 35px;
-   background: url('/assets/img/card_logo.png') center center / contain no-repeat;
+   background: url('../img/card_logo.png') center center / contain no-repeat;
 }
 
 .card h5 {
@@ -356,7 +356,7 @@ html {
 #pay h4 {
    width: 100%;
    height: 51px;
-   background: url('/assets/img/Pay_logo.png') top center / contain no-repeat;
+   background: url('../img/Pay_logo.png') top center / contain no-repeat;
 }
 
 #pay h5 {
